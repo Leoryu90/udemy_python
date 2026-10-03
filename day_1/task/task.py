@@ -1,4 +1,5 @@
-name = input("What is your name?")
+username = input("What is your name?")
+length = len(username)
 
-print("Hello " + name)
-print(len(name))
+
+print("username is "+ username + " and it has " + str(length) + " characters")
